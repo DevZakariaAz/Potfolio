@@ -404,7 +404,7 @@ h3.my-profession{
     margin-top: 30px;
 }
 .about .about-content .personal-info .buttons .btn{
-    margin-right: 15px;
+    /* margin-right: 15px; */
     margin-top: 10px;
 }
 .about .about-content .skills .skill-item{
@@ -723,6 +723,10 @@ h3.my-profession{
 }
 @media (max-width:1199px) 
 {
+    .section .container
+    {
+        padding-top: 70px; ;
+    }
     .aside
     {
         left: -270px;

@@ -60,7 +60,6 @@ function updateNav(element) {
         if (target === navList[i].querySelector("a").getAttribute("href").split("#")[1])
         {
             navList[i].querySelector("a").classList.add("active");
-
         }
     }
 }
